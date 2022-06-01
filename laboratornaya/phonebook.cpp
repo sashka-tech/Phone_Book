@@ -89,7 +89,7 @@ void edit_1(vector<Phone_Book> &phone)
 
 		for (int i = 0; i < phone.size(); i++)
 		{
-			cout << "Ââåäèòå íîâûé òåëåôîííûé íîìåð è ïîäòâåðäèòå èçìåíåíèå 2 ðàçà: ";
+			cout << "Ââåäèòå íîâûé òåëåôîííûé íîìåð: ";
 			cin >> phone[i].phonenumber;
 
 			cout << "\nÂàø òåëåôîííûé íîìåð óñïåøíî èçìåíåí ! ";
@@ -119,7 +119,7 @@ void edit_1(vector<Phone_Book> &phone)
 
 		for (int i = 0; i < phone.size(); i++)
 		{
-			cout << "Ââåäèòå íîâóþ ôàìèëèþ äëÿ çàïèñè è ïîäòâåðäèòå èçìåíåíèå 2 ðàçà: ";
+			cout << "Ââåäèòå íîâóþ ôàìèëèþ äëÿ çàïèñè: ";
 			cin >> phone[i].surname;
 
 			cout << "\nÔàìèëèÿ çàïèñè óñïåøíî áûëà èçìåíåíà ! ";
